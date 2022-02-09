@@ -1,0 +1,20 @@
+.container {
+  flex: 0 0 auto;
+  width: 200px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.image {
+  width: 100px;
+  object-fit: cover;
+  margin-right: var(--dl-space-space-unit);
+}
+.container1 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.text {
+  margin-bottom: var(--dl-space-space-twounits);
+}
